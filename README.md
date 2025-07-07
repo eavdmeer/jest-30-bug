@@ -48,4 +48,6 @@ Ran all test suites.
 ## Workaround
 Running `npm test` a second time (and any subsequent times) produces the correct result. However, running it from any kind of subshell (like Apache ant) will have it fail every single time.
 
+Manually adding a devDependency for `@unrs/resolver-binding-darwin-arm64` **before** running `npm install`, will make `npm test` run correctly immediately after install.
+
 ## What happens
